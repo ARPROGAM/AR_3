@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <model-viewer id="ar-model" src="model.glb" alt="3D Model" ar ar-modes="scene-viewer webxr quick-look" 
+                  environment-image="neutral" auto-rotate camera-controls touch-action="none" disable-zoom></model-viewer>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
